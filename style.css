@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: fuchsia;
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    border: 1px solid #000;
+}
+
+section {
+    height: 620px;
+    width: 100%;
+    background-color: lightgrey;
+    border: 1px solid #000;
+    margin-top: 15px;
+    vertical-align: top
+}
+
+article {
+    height: 575px;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid #000;
+    background-color: cornflowerblue;
+}
+
+#titulo {
+    height: 30px;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px solid;
+    background-color: white
+}
+
+#arriba {
+    background-color: cornflowerblue;
+    border: none;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#arriba h2 {
+    color: red;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+#datos {
+    background-color: cornflowerblue;
+    border: none;
+    text-align: left;
+    margin: 20px;
+}
+
+input {
+    margin: 5px;
+    background-color: aliceblue;
+    font-size: 12px;
+    box-shadow: 0px 0px 10px black;
+    color: black;
+    transition: background-color 2s ease-out , font-size 0.5s ease-in , color 1s 1s;
+    -webkit-transition: background-color 2s ease-out , font-size 0.5s ease-in , color 1s 1s ;
+    -moz-transition: background-color 2s ease-out , font-size 0.5s ease-in , color 1s 1s;
+    -o-transition: background-color 2s ease-out , font-size 0.5s ease-in , color 1s 1s;
+}
+
+input:focus {
+    background-color: gold;
+    box-shadow: 5px 5px 10px red;
+    font-size: 16px;
+    color: purple;
+    /* de aliceblue a gold*/
+ 
+}
+
+

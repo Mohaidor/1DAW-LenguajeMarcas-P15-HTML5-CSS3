@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main>
+            <form  action="http://www.formular-chef.de/fc.cgi" method="POST">
+                <header>
+                    <h3 id="titulo">DAW: Llenguatge de Marques</h3>
+                </header>
+                <section>
+                    <article>
+                        <div id="arriba">
+                            <input type="search">
+                            <input type="button" value="Search">
+                            <h2>Inscripció</h2>
+                        </div>
+                        <div id="datos">
+                            <label for="name">El meu nom es:</label>
+                            <input type="text" id="name" autocomplete="on" required autofocus>
+                            <br>
+                            <label for="email">La meua adreça de correu electronic es:</label>
+                            <input type="email" id="email" multiple autocomplete="on" required>
+                            <br>
+                            <label for="telefono">El meu telefon es:</label>
+                            <input type="tel" id="telefono" autocomplete="on" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}" placeholder="965.639.695">
+                            <br>
+                            <label for="web">El meu lloc web es troba a:</label>
+                            <input type="url" id="web" autocomplete="on" placeholder="http://example.com">
+                            <br>
+                            <label for="password">Contrasenya:</label>
+                            <br>
+                            <label for="password">(coma minim 6 caràcters,sense espais)</label>
+                            <input type="password" id="password" required minlength="5">
+                            <br>
+                            <label for="rango">En una escala de l'1 al 10, el meu conociment de HTML5 es:</label>
+                            <input type="range" id="rango" min="1" max="10">
+                            <br>
+                            <label for="fecha">Per favor, Iniciar la meua subscripció:</label>
+                            <input type="date" id="fecha" value="2021-01-01">
+                            <br>
+                            <label for="numero">Magradaria rebre:</label>
+                            <input type="number" id="numero" min="1" max="10">
+                            <label for="numero" >copies del <i>Periodic HTML5</i></label>
+                            <br>
+                            <label for="comentario">Comentari Deshabilitat</label>
+                            <input type="text" id="comentario" disabled >
+                            <br>
+                            <label for="articulo">Titol de l'article:</label>
+                            <input type="text" id="articulo" readonly placeholder="HTML5">
+                            <br>
+                            <label for="color">Color layout:</label>
+                            <input type="color" id="color">
+                            <label for="hex"></label>
+                            <input type="text" id="hex" pattern="^#+([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" placeholder="#FFFFFF" >
+                            <br>
+                            <label for="diario">Tambe em vull subscriure en El diari de CSS3</label>
+                            <input type="checkbox" id="diario">
+                            <br>
+                            <input type="submit" formmethod="post" value="Enviar Mesatge">
+                        </div>
+                    </article>
+                </section>
+            </form>
+        </main>
+    </body>
+
+</html>
